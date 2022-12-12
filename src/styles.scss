@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board.end .snake {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  // flex-wrap: wrap;
+}
+
+.col {
+  // flex-grow: 1;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  background-color: #fff;
+  border: 0.5px solid #cecece;
+
+  &.apple {
+    background-color: red;
+  }
+  &.snake {
+    background-color: rgb(20, 172, 78);
+  }
+}
+
+
