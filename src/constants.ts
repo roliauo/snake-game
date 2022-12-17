@@ -9,11 +9,16 @@ export const INITIAL = {
     { x: 5, y: 8 }
   ],
   SNAKE: [
+    // { x: 6, y: 0 },
+    // { x: 5, y: 0 },
+    // { x: 4, y: 0 },
+    { x: 3, y: 0 },
     { x: 2, y: 0 },
     { x: 1, y: 0 },
     { x: 0, y: 0 }
   ],
-  BOARD: { rows: 10, cols: 10 }
+  BOARD: { rows: 10, cols: 10 },
+  SPEED: 500
 };
 
 export enum MODE {

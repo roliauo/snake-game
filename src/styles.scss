@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
 .board.end .snake {
   background-color: black;
 }
